@@ -33,3 +33,6 @@ ril.subscription.types=NV,RUIM
 DEVICE_PROVISIONED=1
 ro.telephony.default_network=22,22
 telephony.lteOnCdmaDevice=1
+
+# IORap
+iorapd.readahead.enable=true
