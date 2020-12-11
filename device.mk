@@ -11,7 +11,8 @@ PRODUCT_SHIPPING_API_LEVEL := 29
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(DEVICE_PATH)/overlay \
-    $(DEVICE_PATH)/overlay-lineage
+    $(DEVICE_PATH)/overlay-lineage \
+    $(DEVICE_PATH)/overlay-ancient
 
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
