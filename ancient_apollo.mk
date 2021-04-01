@@ -15,6 +15,9 @@ $(call inherit-product, device/xiaomi/apollo/device.mk)
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
 TARGET_BOOT_ANIMATION_RES := 1080
+ANCIENT_OFFICIAL ?= true
+ANCIENT_GAPPS ?= true
+TARGET_USES_BLUR := true
 
 # Product
 PRODUCT_NAME := ancient_apollo
