@@ -14,7 +14,7 @@ $(call inherit-product, device/xiaomi/apollo/device.mk)
 # Inherit some common stuff.
 $(call inherit-product, vendor/ancient/config/common_full_phone.mk)
 
-TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_BOOT_ANIMATION_RES := 1440
 ANCIENT_OFFICIAL ?= true
 ANCIENT_GAPPS ?= true
 TARGET_USES_BLUR := true
@@ -25,5 +25,7 @@ PRODUCT_DEVICE := apollo
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL ?= Mi 10T Pro
+
+BUILD_FINGERPRINT := google/redfin/redfin:11/RQ2A.210305.007/7124944:user/release-keys
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
