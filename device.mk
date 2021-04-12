@@ -48,7 +48,7 @@ PRODUCT_PACKAGES += \
     XiaomiParts
 
 # Kernel
-$(call inherit-product, device/xiaomi/apollo-kernel/kernel.mk)
+#$(call inherit-product, device/xiaomi/apollo-kernel/kernel.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/apollo/apollo-vendor.mk)
