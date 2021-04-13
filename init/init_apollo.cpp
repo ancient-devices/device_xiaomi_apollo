@@ -92,12 +92,12 @@ void vendor_load_properties() {
     property_override("ro.oem_unlock_supported", "0");
     if (product.find("std") != std::string::npos) {
         set_device_props(
-                "Xiaomi/apollo_eea/apollo:11/RKQ1.200826.002/V12.1.2.0.RJDEUXM:user/release-keys",
+                "google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys",
                 "apollo_eea-user 11 RKQ1.200826.002 V12.1.2.0.RJDEUXM release-keys",
                 "Xiaomi", "apollo", "Xiaomi Mi 10T");
     } else if (product.find("pro") != std::string::npos) {
         set_device_props(
-                "Xiaomi/apollopro_eea/apollo:11/RKQ1.200826.002/V12.1.2.0.RJDEUXM:user/release-keys",
+                "google/redfin/redfin:11/RQ2A.210405.005/7181113:user/release-keys",
 		"apollopro_eea-user 11 RKQ1.200826.002 V12.1.2.0.RJDEUXM release-keys",
 		"Xiaomi", "apollo", "Xiaomi Mi 10T Pro");
     }
