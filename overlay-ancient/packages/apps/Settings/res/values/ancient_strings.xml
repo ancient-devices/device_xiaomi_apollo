@@ -9,7 +9,4 @@
     <string name="ancient_camera_mp_summary">108/64 + 13 + 5 MP Triple Camera</string>
     <string name="ancient_screen_type_summary">IPS LCD 6.67" Display</string>
 
-    <!-- AncientOS About Maintainer Info -->
-    <string name="maintainer_name"></string>
-
 </resources>
