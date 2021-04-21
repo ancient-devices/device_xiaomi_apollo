@@ -206,16 +206,6 @@ PRODUCT_PACKAGES += \
     vendor.xiaomi.hardware.fingerprintextension@1.0.vendor \
     android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sm8250
 
-# GPS
-PRODUCT_COPY_FILES += \
-    $(DEVICE_PATH)/gps/apdr.conf:$(TARGET_COPY_OUT_VENDOR)/etc/apdr.conf \
-    $(DEVICE_PATH)/gps/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
-    $(DEVICE_PATH)/gps/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
-    $(DEVICE_PATH)/gps/izat.conf:$(TARGET_COPY_OUT_VENDOR)/etc/izat.conf \
-    $(DEVICE_PATH)/gps/lowi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/lowi.conf \
-    $(DEVICE_PATH)/gps/sap.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sap.conf \
-    $(DEVICE_PATH)/gps/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf
-
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl \
