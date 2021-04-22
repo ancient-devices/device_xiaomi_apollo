@@ -202,7 +202,7 @@ PRODUCT_PACKAGES += \
     fastbootd
 
 # Fingerprint
-ifneq ($(TARGET_NO_FOD),true)
+ifeq ($(TARGET_HAS_FOD),true)
 PRODUCT_PACKAGES += \
     vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_kona
 
@@ -214,7 +214,11 @@ PRODUCT_COPY_FILES += \
 endif
 
 PRODUCT_PACKAGES += \
-    vendor.xiaomi.hardware.fingerprintextension@1.0.vendor
+    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_kona
+
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.fingerprintextension@1.0.vendor \
+    vendor.xiaomi.hardware.touchfeature@1.0.vendor
 
 # Health
 PRODUCT_PACKAGES += \
