@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_apollo.mk
+    $(LOCAL_DIR)/ancient_apollo.mk
+
+COMMON_LUNCH_CHOICES := \
+    ancient_apollo-user \
+    ancient_apollo-userdebug \
+    ancient_apollo-eng
