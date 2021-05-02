@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from apollo-user 11 RKQ1.200826.002 V12.1.1.0.RJDMIXM
+# All unpinned blobs below are extracted from apollo-user 11 RKQ1.200826.002 V12.1.5.0.RJDEUXM
 
 # ADSP
 vendor/bin/adsprpcd
@@ -1466,16 +1466,6 @@ vendor/etc/thermal-normal.conf
 vendor/etc/thermal-phone.conf
 vendor/etc/thermal-tgame.conf
 vendor/etc/thermald-devices.conf
-vendor/etc/thermal-india-4k.conf
-vendor/etc/thermal-india-8k.conf
-vendor/etc/thermal-india-camera.conf
-vendor/etc/thermal-india-class0.conf
-vendor/etc/thermal-india-mgame.conf
-vendor/etc/thermal-india-normal.conf
-vendor/etc/thermal-india-tgame.conf
-vendor/etc/thermal-india-video.conf
-vendor/etc/thermal-india-youtube.conf
-vendor/etc/thermal-map-india.conf
 vendor/etc/thermal-mgame.conf
 vendor/etc/thermal-navigation.conf
 vendor/etc/thermal-region-map.conf
