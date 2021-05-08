@@ -235,14 +235,13 @@ PRODUCT_PACKAGES += \
     libipanat \
     liboffloadhal
 
+# Lights
+PRODUCT_PACKAGES += \
+    android.hardware.lights-service.xiaomi_kona
+
 # LiveDisplay
 PRODUCT_PACKAGES += \
     vendor.lineage.livedisplay@2.0-service-sdm
-
-# Lights
-PRODUCT_PACKAGES += \
-    lights.kona \
-    android.hardware.lights-service.qti
 
 # Media
 PRODUCT_PACKAGES += \
