@@ -164,9 +164,6 @@ on boot
 on property:vendor.display.lcd_density=560
    setprop dalvik.vm.heapgrowthlimit 256m
 
-on property:persist.vendor.sys.fp.fod.large_field=1
-    write sys/bus/i2c/devices/3-0049/fod_area 1
-
 on property:vendor.display.lcd_density=640
    setprop dalvik.vm.heapgrowthlimit 512m
 
