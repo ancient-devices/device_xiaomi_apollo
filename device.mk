@@ -202,9 +202,19 @@ PRODUCT_PACKAGES += \
     fastbootd
 
 # Fingerprint
+ifneq ($(TARGET_NO_FOD),true)
 PRODUCT_PACKAGES += \
-    vendor.xiaomi.hardware.fingerprintextension@1.0.vendor \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_sm8250
+    vendor.lineage.biometrics.fingerprint.inscreen@1.0-service.xiaomi_kona
+
+PRODUCT_PACKAGES += \
+    vendor.goodix.hardware.biometrics.fingerprint@2.1.vendor
+
+PRODUCT_COPY_FILES += \
+    vendor/lineage/config/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/vendor.lineage.biometrics.fingerprint.inscreen.xml
+endif
+
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.fingerprintextension@1.0.vendor
 
 # Health
 PRODUCT_PACKAGES += \
