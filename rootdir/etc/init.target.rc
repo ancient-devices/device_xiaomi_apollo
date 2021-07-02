@@ -53,9 +53,6 @@ on init
     chmod 0660 /sys/devices/platform/soc/1d84000.ufshc/auto_hibern8
     start logd
     chown system system /proc/last_kmsg
-    #change owner of white led
-    chown system system /sys/class/leds/white/brightness
-    chown system system /sys/class/leds/white/breath
 
 on early-fs
     start vold
@@ -196,7 +193,6 @@ on charger
     start vendor.power_off_alarm
     setprop sys.usb.controller a600000.dwc3
     setprop sys.usb.configfs 1
-    start leds-sh
 
 on property:vendor.audio.cit.spkcal.copy=true
     copy /data/vendor/cit/cs35l41_cal.bin /mnt/vendor/persist/audio/cs35l41_cal.bin
