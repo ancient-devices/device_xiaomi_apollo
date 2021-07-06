@@ -1,0 +1,11 @@
+com.qualcomm.qti.bluetooth_audio@1.0::IBluetoothAudio/default
+vendor.qti.hardware.audiohalext@1.0::IAudioHalExt/default
+vendor.qti.hardware.cacert@1.0::IService/default
+vendor.qti.hardware.dsp@1.0::IDspService/dspservice
+vendor.qti.hardware.factory@1.1::IFactory/default
+vendor.qti.hardware.trustedui@1.0::ITrustedInput/default
+vendor.qti.hardware.trustedui@1.0::ITrustedUI/default
+vendor.qti.hardware.wifi.wifilearner@1.0::IWifiStats/wifiStats
+vendor.qti.qspmhal@1.0::IQspmhal/default
+vendor.qti.sla.service@1.0::ISlaService/default
+vendor.xiaomi.hardware.batterylife@1.0::IBatteryLife/default
