@@ -250,12 +250,14 @@ vendor.usb.use_ffs_mtp=0
 # WiFi
 wifi.aware.interface=wifi-aware0
 
-# Refresh Rate
+# Display
 ro.surface_flinger.use_content_detection_for_refresh_rate=true
 ro.surface_flinger.set_display_power_timer_ms=1000
 ro.surface_flinger.set_idle_timer_ms=80
 ro.surface_flinger.set_touch_timer_ms=200
 vendor.display.idle_time=1100
+vendor.display.disable_idle_time_video=1
+vendor.display.disable_idle_time_hdr=1
 ro.surface_flinger.has_wide_color_display=1
 ro.surface_flinger.use_color_management=1
 ro.surface_flinger.has_HDR_display=true
