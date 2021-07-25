@@ -146,7 +146,8 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor
 
 PRODUCT_PACKAGES += \
-    MiuiCamera
+    MiuiCamera \
+    CutoutRingServiceApollo
 
 # Configstore
 PRODUCT_PACKAGES += \
