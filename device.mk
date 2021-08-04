@@ -146,7 +146,7 @@ PRODUCT_PACKAGES += \
     libstdc++.vendor
 
 PRODUCT_PACKAGES += \
-    Snap
+    MiuiCamera
 
 # Configstore
 PRODUCT_PACKAGES += \
