@@ -10,6 +10,6 @@
   },
   {
     "repository": "vendor_xiaomi_apollo",
-    "target_path": "vendor/xiaomi/apollo",
+    "target_path": "vendor/xiaomi/apollo"
   }
 ]
