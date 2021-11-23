@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_apollo.mk
+    $(LOCAL_DIR)/ancient_apollo.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_apollo-user \
-    arrow_apollo-userdebug \
-    arrow_apollo-eng
+    ancient_apollo-user \
+    ancient_apollo-userdebug \
+    ancient_apollo-eng
