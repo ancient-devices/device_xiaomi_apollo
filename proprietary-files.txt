@@ -33,39 +33,39 @@ vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_karaokemix_res.bin
 vendor/lib/rfsa/adsp/misound_res.bin
 
-# Audio firmware
-vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw
-vendor/firmware/cs35l41-dsp1-diag-z-RCV-revb2.bin
-vendor/firmware/cs35l41-dsp1-diag-z-revb2.bin
-vendor/firmware/cs35l41-dsp1-diag-z-revb2.wmfw
-vendor/firmware/cs35l41-dsp1-diag-z.bin
-vendor/firmware/cs35l41-dsp1-diag-z.wmfw
-vendor/firmware/cs35l41-dsp1-diag.wmfw
-vendor/firmware/cs35l41-dsp1-spk-prot-RCV-revb2.bin
-vendor/firmware/cs35l41-dsp1-spk-prot-RCV.bin
-vendor/firmware/cs35l41-dsp1-spk-prot-revb2.bin
-vendor/firmware/cs35l41-dsp1-spk-prot-revb2.wmfw
-vendor/firmware/cs35l41-dsp1-spk-prot.bin
-vendor/firmware/rcv_voice_delta.txt
-vendor/firmware/spk1_playback_delta.txt
-vendor/firmware/spk1_voice_delta.txt
-vendor/firmware/spk2_playback_delta.txt
-vendor/firmware/spk2_voice_delta.txt
+# Audio firmware - from APOLLO V13.0.0.1.6.DEV
+vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw|43bdf47fd6f68c219bcfc8d161bc83406831fb86
+vendor/firmware/cs35l41-dsp1-diag-z-RCV-revb2.bin|7c5e645e24e983c067cdcd4f0d13031a96c6dc95
+vendor/firmware/cs35l41-dsp1-diag-z-revb2.bin|66c8e9b24dcfc2e41d885df1400c5fb3a3f5d43f
+vendor/firmware/cs35l41-dsp1-diag-z-revb2.wmfw|574477bc96de8eab038e3ebfa8844f136bd59c8f
+vendor/firmware/cs35l41-dsp1-diag-z.bin|b4a4411720f3a9ae0d260834ed39f8b2bfeb52b1
+vendor/firmware/cs35l41-dsp1-diag-z.wmfw|fd74a1fdfa316ae814fdf569079626c9945cd056
+vendor/firmware/cs35l41-dsp1-diag.wmfw|74653b5ef80343a8dc84d33776490cffde64f4c5
+vendor/firmware/cs35l41-dsp1-spk-prot-RCV-revb2.bin|fcdd478d5f4364cc98ce92f538af8d35154f384c
+vendor/firmware/cs35l41-dsp1-spk-prot-RCV.bin|4894e3e4240c553f5b20cf11f307b1c87ae74d28
+vendor/firmware/cs35l41-dsp1-spk-prot-revb2.bin|451a38bd36d8c2c8657907d33fc7c66c8efb6ca5
+vendor/firmware/cs35l41-dsp1-spk-prot-revb2.wmfw|574477bc96de8eab038e3ebfa8844f136bd59c8f
+vendor/firmware/cs35l41-dsp1-spk-prot.bin|0e1891ae92d240f5ef31f72f378068340b40d191
+vendor/firmware/rcv_voice_delta.txt|b7c6b097b31d3b054823c2cb1f4d88fe74c5c733
+vendor/firmware/spk1_playback_delta.txt|2435e64ae9ce3d2c0b89bb4161663814d75e5f63
+vendor/firmware/spk1_voice_delta.txt|ed4d9a1948a9920b4b462936fec56bba045f79ec
+vendor/firmware/spk2_playback_delta.txt|2ce818124711b84b3a8a4542949a29b6bf69c40b
+vendor/firmware/spk2_voice_delta.txt|81e67a6855e79bdfa52a64de0a50d126aa871d3e
 
-# Audio-Hardware
-vendor/lib/hw/audio.primary.kona.so
-vendor/lib/vndk/libxlog.so
-vendor/lib/liba2dpoffload.so
-vendor/lib/libaudio_log_utils.so
-vendor/lib/libaudioroute_ext.so
-vendor/lib/libresampler.so
-vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
-vendor/lib64/hw/audio.primary.kona.so
-vendor/lib64/liba2dpoffload.so
-vendor/lib64/libaudio_log_utils.so
-vendor/lib64/libaudioroute_ext.so
-vendor/lib64/libresampler.so
-vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so
+# Audio-Hardware - from APOLLO V13.0.0.1.6.DEV
+vendor/lib/hw/audio.primary.kona.so|6ed8adcbf700f8b66681f782f1b620a675c58877
+vendor/lib/vndk/libxlog.so|dad5169deb3296ca1ff4d7e9546e4229cda277b9
+vendor/lib/liba2dpoffload.so|461ba071ef5072af58f00aeae4a5a1424ad4d787
+vendor/lib/libaudio_log_utils.so|da677ff82cbec353a2851a7556a2fa37992d6e2c
+vendor/lib/libaudioroute_ext.so|9c64c2384952947590b848ace49bfad185d60a61
+vendor/lib/libresampler.so|8edd3e46d46ad53469487f172219aec3a5a840b5
+vendor/lib/vendor.qti.hardware.audiohalext@1.0.so|ed13a1c435bbc1320ceedeafab62db39fec2e34d
+vendor/lib64/hw/audio.primary.kona.so|456ab7dcc548145254ce7e9ca89822d6dfb12813
+vendor/lib64/liba2dpoffload.so|b8fbc541a06e281616fe2906bb158f716b8fded0
+vendor/lib64/libaudio_log_utils.so|abc1950f7eb2f73bf502d151557053d78d2f08b9
+vendor/lib64/libaudioroute_ext.so|83d573431da7be44335d2bd5725909af550d1ded
+vendor/lib64/libresampler.so|b38622335b7a883e06f4f48e0f8df33c179d034f
+vendor/lib64/vendor.qti.hardware.audiohalext@1.0.so|83829ae61191b1a1afc16c04ab3d568f248da1db
 
 # ACDB
 vendor/etc/acdbdata/Forte/Forte_Bluetooth_cal.acdb
@@ -402,35 +402,35 @@ vendor/lib64/hw/fingerprint.fpc.so:vendor/lib64/hw/fingerprint.fpc.default.so
 system_ext/etc/permissions/com.android.hotwordenrollment.common.util.xml
 system_ext/framework/com.android.hotwordenrollment.common.util.jar
 
-# Sensors
-vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service
-vendor/bin/init.qcom.sensors.sh
-vendor/bin/sensors.qti
-vendor/bin/sscrpcd
-vendor/etc/init/init.vendor.sensors.rc
-vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc
-vendor/etc/init/vendor.sensors.qti.rc
-vendor/etc/init/vendor.sensors.sscrpcd.rc
-vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml
-vendor/etc/sensors/hals.conf
-vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so
-vendor/lib64/libnotifyaudiohal.so
-vendor/lib64/libsensorcal.so
-vendor/lib64/libsensorslog.so
-vendor/lib64/libsns_device_mode_stub.so
-vendor/lib64/libsns_fastRPC_util.so
-vendor/lib64/libsns_low_lat_stream_stub.so
-vendor/lib64/libsnsapi.so
-vendor/lib64/libsnsdiaglog.so
-vendor/lib64/libssc.so
-vendor/lib64/libssc_default_listener.so
-vendor/lib64/libssccalapi.so
-vendor/lib64/libultrasound.so
-vendor/lib64/sensors.elliptic.so
-vendor/lib64/sensors.mius.proximity.so
-vendor/lib64/sensors.ssc.so
-vendor/lib64/sensors.touch.so
-vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so
+# Sensors - from APOLLO V13.0.0.1.6.DEV
+vendor/bin/hw/vendor.qti.hardware.sensorscalibrate@1.0-service|9712de3546d87ef2b3a96e8a745de5afa441c400
+vendor/bin/init.qcom.sensors.sh|5b38688acaf5f4a2e973b72d236a06498703a023
+vendor/bin/sensors.qti|26aee7bda2d52f16082b04116d7cd30ee6d00f2e
+vendor/bin/sscrpcd|54139dfa1970952cb17078015132491b3981804f
+vendor/etc/init/init.vendor.sensors.rc|8d286f50fd261dc8843c6a208386b535cc07641e
+vendor/etc/init/vendor.qti.hardware.sensorscalibrate@1.0-service.rc|449c88778d880c0d47cc4d651fc60c4c424c1a3f
+vendor/etc/init/vendor.sensors.qti.rc|9a3db138bc4848b720e0839235a3e074259b78c1
+vendor/etc/init/vendor.sensors.sscrpcd.rc|df52901f1ad0fbc97d6070e28896a6be40154814
+vendor/etc/permissions/vendor-qti-hardware-sensorscalibrate.xml|f4884c1776c9f77c24bfce853fe22627ea4b7f79
+vendor/etc/sensors/hals.conf|4eb9b9ec8ef52ec0da174d04db4b753db6072475
+vendor/lib64/hw/vendor.qti.hardware.sensorscalibrate@1.0-impl.so|c8a5dcbb7a892bffda1a9cc398dd0280a7422371
+vendor/lib64/libnotifyaudiohal.so|c6d53e28c977f92e974b85dfb532734b42d44231
+vendor/lib64/libsensorcal.so|6c7275b7fd887475e3e090284ab56d115ea1ecc1
+vendor/lib64/libsensorslog.so|8df3d0d6ccf65d88b98788fd65bd1918c022a264
+vendor/lib64/libsns_device_mode_stub.so|4c2b7642a55073f1db79d7dc2114c40e2ac6c51b
+vendor/lib64/libsns_fastRPC_util.so|74f066bdad58f2c97a6175c30b3eb1a0bd607936
+vendor/lib64/libsns_low_lat_stream_stub.so|1609464e3a9115bf108594420d1abd3f96267d11
+vendor/lib64/libsnsapi.so|4e5dc1755413a6b8e3b0c6753aa2b1d39d7f83d3
+vendor/lib64/libsnsdiaglog.so|e06a5c86eafedd412f5823463af83e89ba33c865
+vendor/lib64/libssc.so|1f95897ef2a482d452d71d242cca7b4f6c4acfba
+vendor/lib64/libssc_default_listener.so|1653233f7454f3be9e8361ab5fde7cd45e9ac9b4
+vendor/lib64/libssccalapi.so|35b18cf5ad4405fbfb73a316bdc7af2cc719989d
+vendor/lib64/libultrasound.so|99ba87b30969ee01026bfe33b2348f0e933fe2b6
+vendor/lib64/sensors.elliptic.so|60d2badb6950b36697fabf8886890de503975e11
+vendor/lib64/sensors.mius.proximity.so|442c2ff663cb86b5e571b2fa7d54babebb90a35f
+vendor/lib64/sensors.ssc.so|3b32d13b1beeafe8694911ff4e7f59408d6a15dc
+vendor/lib64/sensors.touch.so|58c44cf526fa881cbc1e930b19da87dc1bf67398
+vendor/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|c94b40c8db796fa012a14d1d5fa6f9b20ee64172
 
 # Sensors configs
 vendor/etc/sensors/config/adux1050_0.json
